@@ -10,10 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mi_tribu">
         <activity
+            android:name=".Dashboard"
+            android:exported="true" />
+        <activity
             android:name=".Register"
-            android:exported="true"
-            android:label="@string/title_activity_register"
-            android:theme="@style/Theme.Mi_tribu.NoActionBar" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
