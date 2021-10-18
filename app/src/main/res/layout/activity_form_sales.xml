@@ -52,6 +52,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/til_form_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -63,6 +64,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
+                style="@style/Widget.MaterialComponents.TextView"
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,6 +90,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/product_title"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -99,6 +102,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/product_description"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
 
