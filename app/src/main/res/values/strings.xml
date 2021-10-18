@@ -17,6 +17,11 @@
     <string name="product_description">Cuéntanos más detalles de tu producto o servicio</string>
     <string name="btn_send">Enviar</string>
     <string name="btn_clean">Limpiar</string>
+    <string name="txt_title_dashboard">¿Sobre qué temática es tu emprendimiento?</string>
+    <string name="txt_porteo">Porteo ergonómico</string>
+    <string name="txt_lactancia">Lactancia materna</string>
+    <string name="txt_entrenamiento">Entrenamiento pre y post parto</string>
+    <string name="txt_ropa">Ropa y accesorios</string>
     <!-- Strings used for fragments for navigation -->
     <!-- Strings used for fragments for navigation
     <string name="first_fragment_label">First Fragment</string>

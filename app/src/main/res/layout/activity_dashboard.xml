@@ -38,40 +38,89 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="80dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toStartOf="@+id/guideline13"
         app:layout_constraintStart_toStartOf="@+id/guideline12"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="SpeakableTextPresentCheck">
+        app:layout_constraintTop_toTopOf="@+id/guideline10">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btn_prueba"
+            <TextView
+                android:id="@+id/txt_title_dashboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Prueba" />
+                android:text="@string/txt_title_dashboard"
+                style="@style/Widget.MaterialComponents.TextView"
+                android:fontFamily="sans-serif"
+                android:textSize="40sp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_porteo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/txt_porteo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/img_porteo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_imgporteo"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/txt_lactancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/txt_lactancia"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/img_lactancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_imglactancia"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/txt_entrenamiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/txt_entrenamiento"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/img_entrenamiento"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_imgentrenamiento"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/txt_ropa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/txt_ropa"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/img_ropa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_imgropabebe"
+                android:layout_marginBottom="20dp"/>
         </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginStart="-10dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline12"
-        app:layout_constraintTop_toTopOf="@+id/guideline10"
-        app:srcCompat="@drawable/logo" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pantalla de opciones de venta"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="170dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

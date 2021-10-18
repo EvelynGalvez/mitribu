@@ -54,7 +54,8 @@
                 android:id="@+id/til_form_name"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -68,18 +69,21 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="¿Vendes un producto o servicio?" />
+                android:text="¿Vendes un producto o servicio?"
+                android:layout_marginBottom="10dp"/>
 
             <RadioGroup
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
 
                 <RadioButton
                     android:id="@+id/rbt_product"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rbt_product" />
+                    android:text="@string/rbt_product"
+                    />
 
                 <RadioButton
                     android:id="@+id/rbt_service"
@@ -92,7 +96,8 @@
                 android:id="@+id/product_title"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -123,7 +128,9 @@
         android:layout_marginBottom="60dp"
         android:text="@string/btn_send"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintStart_toStartOf="@+id/guideline16" />
+        app:layout_constraintStart_toStartOf="@+id/guideline16"
+        style="@style/Widget.MaterialComponents.Button"
+        />
 
     <Button
         android:id="@+id/btn_clean"
@@ -133,7 +140,8 @@
         android:layout_marginBottom="60dp"
         android:text="@string/btn_clean"
         app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
-        app:layout_constraintEnd_toStartOf="@+id/guideline17" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        style="@style/Widget.MaterialComponents.Button"/>
 
     <ImageView
         android:id="@+id/imageView2"
