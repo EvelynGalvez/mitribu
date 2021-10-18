@@ -10,7 +10,13 @@
     <string name="til_email">E-mail</string>
     <string name="til_pass">Contraseña</string>
     <string name="til_repeatpass">Repite tu contraseña</string>
-    <string name="til_formname">Ingresa tu nombre o el de tu tienda</string>
+    <string name="til_form_name">Ingresa tu nombre o el de tu tienda</string>
+    <string name="rbt_product">Producto</string>
+    <string name="rbt_service">Servicio</string>
+    <string name="product_title">¿Qué es lo que ofreces?</string>
+    <string name="product_description">Cuéntanos más detalles de tu producto o servicio</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_clean">Limpiar</string>
     <!-- Strings used for fragments for navigation -->
     <!-- Strings used for fragments for navigation
     <string name="first_fragment_label">First Fragment</string>
