@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mi_tribu">
         <activity
+            android:name=".Shop"
+            android:exported="true" />
+        <activity
             android:name=".Form_sales"
             android:exported="true" />
         <activity

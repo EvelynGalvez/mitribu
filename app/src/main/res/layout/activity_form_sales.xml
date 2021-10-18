@@ -69,18 +69,19 @@
                 android:text="¿Vendes un producto o servicio?" />
 
             <RadioGroup
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/rbt_product"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rbt_product" />
 
                 <RadioButton
                     android:id="@+id/rbt_service"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rbt_service" />
             </RadioGroup>
