@@ -22,6 +22,7 @@
     <string name="txt_lactancia">Lactancia materna</string>
     <string name="txt_entrenamiento">Entrenamiento pre y post parto</string>
     <string name="txt_ropa">Ropa y accesorios</string>
+    <string name="txt_sales_title">Venta de Productos</string>
     <!-- Strings used for fragments for navigation -->
     <!-- Strings used for fragments for navigation
     <string name="first_fragment_label">First Fragment</string>
