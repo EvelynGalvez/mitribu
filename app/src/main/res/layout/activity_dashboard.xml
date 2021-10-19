@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/txt_porteo"
-                android:textSize="30sp" />
+                android:textSize="30sp"/>
 
             <ImageButton
                 android:id="@+id/img_porteo"

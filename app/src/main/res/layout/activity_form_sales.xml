@@ -83,7 +83,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rbt_product"
-                    />
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <RadioButton
                     android:id="@+id/rbt_service"

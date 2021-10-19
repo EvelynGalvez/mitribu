@@ -23,6 +23,10 @@
     <string name="txt_entrenamiento">Entrenamiento pre y post parto</string>
     <string name="txt_ropa">Ropa y accesorios</string>
     <string name="txt_sales_title">Venta de Productos</string>
+    <string name="txt_desc_cardview">Mochila ergonómica evolutiva hecha de fular tejido,  con puente ajustable, tiene un ajuste único,
+        patentado por Emeibaby Austria. Es una de las mochilas ergonómicas más recomendadas para bebés recién nacidos.</string>
+    <string name="txt_cardview">Mochila ergonómica Emeibaby</string>
+    <string name="txt_contact">correo@correo.com</string>
     <!-- Strings used for fragments for navigation -->
     <!-- Strings used for fragments for navigation
     <string name="first_fragment_label">First Fragment</string>
