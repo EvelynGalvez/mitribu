@@ -17,12 +17,6 @@ public class Form_sales extends AppCompatActivity {
         setContentView(R.layout.activity_form_sales);
         btn_send = findViewById(R.id.btn_send);
 
-        btn_send.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), Sales.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }

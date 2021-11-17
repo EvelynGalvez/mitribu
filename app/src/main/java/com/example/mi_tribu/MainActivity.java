@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -13,6 +14,7 @@ import com.google.android.material.textfield.TextInputLayout;
 public class MainActivity extends AppCompatActivity {
     private TextInputLayout til_user, til_pass;
     private Button btn_login, btn_register, btn_accept;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,9 +46,51 @@ public class MainActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), Dashboard.class);
-                startActivity(intent);
+                Validate validate = new Validate();
+                String user = til_user.getEditText().getText().toString();
+                String pass = til_pass.getEditText().getText().toString();
+                validarDatos();
+                if(validarDatos() == 0) {
+                    Intent intent = new Intent(view.getContext(), Dashboard.class);
+                    startActivity(intent);
+                }
+
+
+
             }
+
+
+
         });
     }
+
+    //Validación campos
+    private int validarDatos(){
+        Validate validate = new Validate();
+        int contador = 0;
+        String user = til_user.getEditText().getText().toString();
+        String pass = til_pass.getEditText().getText().toString();
+        if(validate.validarNulo(user)) {
+            if (validate.validarCorreo(user)) {
+                til_user.setError(null);
+            } else {
+                til_user.setError(getString(R.string.error_mail_wrongformat));
+                contador++;
+            }
+        }
+        else {
+            til_user.setError(getString(R.string.error_mail_null));
+            contador++;
+        }
+        if(validate.validarNulo(pass)){
+                til_pass.setError(null);
+            }
+            else {
+                til_pass.setError(getString(R.string.error_pass_null));
+                contador++;
+            }
+        return contador;
+
+    }
+
 }

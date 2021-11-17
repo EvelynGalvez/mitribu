@@ -1,15 +1,21 @@
 <resources>
+    <!-- Main activity (Login) -->
     <string name="app_name">Mi Tribu</string>
     <string name="login_mail">E-mail</string>
     <string name="login_pass">Contraseña</string>
     <string name="btn_login">Ingresar</string>
     <string name="btn_register">Registrate!</string>
+
+    <!-- Register -->
     <string name="title_activity_register">Register</string>
     <string name="btn_accept">Aceptar</string>
     <string name="til_name">Nombre</string>
+    <string name="til_date">Fecha de nacimiento</string>
     <string name="til_email">E-mail</string>
     <string name="til_pass">Contraseña</string>
     <string name="til_repeatpass">Repite tu contraseña</string>
+
+    <!-- Main activity (Login) -->
     <string name="til_form_name">Ingresa tu nombre o el de tu tienda</string>
     <string name="rbt_product">Producto</string>
     <string name="rbt_service">Servicio</string>
@@ -27,14 +33,13 @@
         patentado por Emeibaby Austria. Es una de las mochilas ergonómicas más recomendadas para bebés recién nacidos.</string>
     <string name="txt_cardview">Mochila ergonómica Emeibaby</string>
     <string name="txt_contact">correo@correo.com</string>
-    <!-- Strings used for fragments for navigation -->
-    <!-- Strings used for fragments for navigation
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    -->
+    <!-- Variables de errores en la aplicación -->
+    <string name="error_mail_null">Campo E-mail no debe estar vacío</string>
+    <string name="error_pass_null">Campo Contraseña no debe estar vacío</string>
+    <string name="error_mail_wrongformat">Campo E-mail debe tener formato ejemplo@email.com</string>
+    <string name="error_name_wrongformat">Campo Nombre no debe contener números ni caracteres especiales</string>
+    <string name="error_text_null">Campo no debe estar vacío</string>
+    <string name="error_pass_not_same">Las contraseñas no coinciden</string>
+
 </resources>
